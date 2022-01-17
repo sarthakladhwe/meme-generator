@@ -39,6 +39,7 @@ main {
   height: 35px;
   border: 1px solid #D5D4D8;
   border-radius: 5px;
+  text-indent: 5px;
 }
 
 .form-btn {
@@ -50,4 +51,5 @@ main {
   outline: none;
   color: #fff;
   font-size: 16px;
+  cursor: pointer;
 }
