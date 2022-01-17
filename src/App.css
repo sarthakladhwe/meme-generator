@@ -18,3 +18,36 @@ body {
   width: 40px;
   margin-right: 5px;
 }
+
+main {
+  width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 2px solid red;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+}
+
+.form-btn {
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+}
