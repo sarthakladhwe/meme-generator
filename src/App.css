@@ -10,7 +10,7 @@ body {
   height: 65px;
   padding: 20px;
   width: 100%;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   color: white;
 }
 
@@ -37,7 +37,7 @@ main {
 .input {
   width: 230px;
   height: 35px;
-  border: 1px solid #D5D4D8;
+  border: 1px solid #d5d4d8;
   border-radius: 5px;
   text-indent: 5px;
 }
@@ -45,11 +45,50 @@ main {
 .form-btn {
   height: 40px;
   width: 100%;
-  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   border-radius: 5px;
   border: none;
   outline: none;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  margin: 15px 0;
+}
+
+.meme--image {
+  width: 100%;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.top-text {
+  position: absolute;
+  top: 0;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0;
 }
